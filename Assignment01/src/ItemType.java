@@ -13,7 +13,7 @@ public class ItemType {
 	//? Sample Output에 있는 code를 LinkedListDriver에다가 쓰는건가?
 	//? 사용자에게 물어보고 반응하는 그런 main function은 어느 파일에??
 	//? Readme.txt는 뭔지?
-	//? Do I have to read text file(input.txt) ? 
+	//? java LinkedListDriver input.txt
 	public int compareTo(ItemType item) {
 		if(item.value<value)return 1; 
 		else if (item.value>value) return -1;
