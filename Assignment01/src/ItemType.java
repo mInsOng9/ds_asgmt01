@@ -15,14 +15,14 @@ public class ItemType {
 	//? Readme.txt는 뭔지?
 	//? java LinkedListDriver input.txt
 	public int compareTo(ItemType item) {
-		if(item.value<value)return 1; 
-		else if (item.value>value) return -1;
+		if(item.value<this.value)return 1; 
+		else if (item.value>this.value) return -1;
 		else return 0;
 	}
 	public int getValue() {
 		return value;
 	}
 	public void initialize(int num) {
-		value=num;
+		this.value=num;
 	}
 }
